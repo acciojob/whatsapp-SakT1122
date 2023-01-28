@@ -9,7 +9,8 @@ public class WhatsappService {
 
     WhatsappRepository whatsappRepository =new WhatsappRepository();
 
-    public String createUser(String Name,String Mobile){
+    public String createUser(String Name,String Mobile) throws Exception {
+
         return whatsappRepository.createUser(Name,Mobile);
 
     }

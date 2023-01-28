@@ -37,7 +37,7 @@ public class WhatsappRepository {
 
     public Group createGroup(List<User> users) {
         if(users.size()==2){
-            String nm= users.get(2).toString();
+            String nm= users.get(1).toString();
             int num=users.size();
             Group  g=new Group(nm,num);
             groupUserMap.put(g,users);

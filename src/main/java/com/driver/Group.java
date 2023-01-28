@@ -24,10 +24,10 @@ public class Group {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int getNumberOfParticipants() {
-        return numberOfParticipants;
+        return this.numberOfParticipants;
     }
 }

@@ -11,4 +11,8 @@ public class User {
         this.name=Name;
         this.mobile=Mobile;
     }
+
+    public String getName() {
+        return name;
+    }
 }
